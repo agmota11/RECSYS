@@ -178,7 +178,5 @@ cython_debug/
 .DS_Store
 
 # Archivos de datos
-negocios.csv
-test_reviews.csv
-train_reviews.csv
-usuarios.csv
+*.csv
+*.zip 
