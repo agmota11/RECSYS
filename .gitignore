@@ -183,4 +183,5 @@ train_reviews.csv
 test_reviews.csv
 usuarios.csv
 
-*.zip 
+*.zip
+*.csv
