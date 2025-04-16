@@ -1,4 +1,4 @@
 jupyter
 seaborn
 bayesian-optimization==1.4.3
-ray[tune]==2.10.0
+optuna

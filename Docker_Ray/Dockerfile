@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
+FROM tensorflow/tensorflow:2.15.0-gpu
 
 # Create the application directory
 RUN mkdir -p /app

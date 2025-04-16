@@ -1,27 +1,20 @@
+version: "3.8"
 services:
-  tune-recog:
+  tune-sis-recomender:
     build:
-      context: ./app  # Build context for the Dockerfile
-      dockerfile: Dockerfile  # Path to the Dockerfile
-    runtime: nvidia
-    shm_size: '10gb'
+      context: .  # Directorio de construcción
+      dockerfile: Dockerfile
+    gpus:
+      - driver: nvidia
+        count: all
+        capabilities: ["gpu"]
     stdin_open: true
     tty: true
-    container_name: tune-recog-corti
+    container_name: tune-sis-recomender
     volumes:
-      - ${RESOURCES_PATH}:/resources
       - .:/app
-    env_file:
-      - .env  # Environment file containing environment variables
     environment:
-      - PYTHONUNBUFFERED=1  # Disables Python output buffering to get real-time logs
-      - CUDA_VISIBLE_DEVICES=1,2  # Specifies the GPU devices visible to the container
+      - PYTHONUNBUFFERED=1  # Log en tiempo real
+      - CUDA_VISIBLE_DEVICES=0  # GPU que se quiere usar
     ports:
       - "1234:1234"
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]

@@ -184,7 +184,8 @@ test_reviews.csv
 usuarios.csv
 
 *.zip
-*.csv
+Practica 2/data/*.csv
+Docker_Ray/src/data/*.csv
 *.npy
 
 *.pkl
