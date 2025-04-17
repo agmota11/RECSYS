@@ -189,3 +189,5 @@ Docker_Ray/src/data/*.csv
 *.npy
 
 *.pkl
+.Trash-0/
+*.h5
