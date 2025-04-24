@@ -1,8 +1,14 @@
 # Proyecto de Sistemas de Recomendación (Práctica 2)
 
-## Estructura del Notebook
+## Estructura de exploración de datos
 
-### Train data all_more
+Ver `Practica 2/src/Exploracion_Nuevo.ipynb`
+
+---
+
+## Estructura del Notebook de pruebas
+
+### Train data
 
 | Categoría                  | Notebooks                                                                                   |
 |---------------------------|---------------------------------------------------------------------------------------------|
