@@ -18,3 +18,7 @@ services:
       - CUDA_VISIBLE_DEVICES=0  # GPU que se quiere usar
     ports:
       - "1234:1234"
+    mem_limit: 24g       # límite máximo de RAM
+    mem_reservation: 16g # reserva de RAM garantizada
+    cpus: "8.0"          # núcleos de CPU dedicados
+    shm_size: "8g"
