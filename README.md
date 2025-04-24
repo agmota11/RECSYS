@@ -7,9 +7,9 @@
 | Categoría                  | Notebooks                                                                                   |
 |---------------------------|---------------------------------------------------------------------------------------------|
 | Preprocesamiento de texto | - Procesando texto de manera clásica (`TF-IDF`, `TruncatedSVD`) <br> - Procesando texto DL (`mpnet-base-v2`) |
-| ML           | - `RandomForestReg` <br> - `KNeighborsRegressor` <br> - `GradientBoostingRegressor` <br> - `XGBRegressor` <br> - `LGBMRegressor` |
+| ML           | - `RandomForestReg` <br> - `KNeighborsRegressor` <br> - `HistGradientBoostingRegressor` <br> - `AdaBoostRegressor` <br> - `GradientBoostingRegressor` <br> - `XGBRegressor` <br> - `LGBMRegressor` |
 | Modelos de deep learning  | - `NeuralNetwork` <br> - `Transformer` <br> - `Transformer + regularization` |
-| Métodos ensemble           | - `VotingRegressor ML` <br> - `Stacking ML` <br> - `Ensemble`                                          |
+| Métodos ensemble           | - `VotingRegressor ML` <br> - `Stacking ML` <br> - `Ensemble (2 NN + Trans)`  - `Ensemble (2 NN + Trans + RF)` <br>                                        |
 
 ### Hiperparámetros
 
