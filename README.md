@@ -2,13 +2,15 @@
 
 ## Estructura de exploración de datos
 
-Ver `Practica 2/src/Exploracion_Nuevo.ipynb`
+(Ver `Practica 2/entrega/Exploracion_EDA.ipynb`)
 
 ---
 
 ## Estructura del Notebook de pruebas
 
-### Train data
+(Ver `Practica 2/entrega/Experimentos.ipynb`)
+
+### Train
 
 | Categoría                  | Notebooks                                                                                   |
 |---------------------------|---------------------------------------------------------------------------------------------|
