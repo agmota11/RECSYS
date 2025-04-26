@@ -54,7 +54,7 @@ Contiene configuraciones para pruebas en diferentes entornos:
 | **Cornac** | [Cornac](https://github.com/PreferredAI/cornac) |
 | **TensorFlow Recommenders** | [TensorFlow Recommenders](https://www.tensorflow.org/recommenders?hl=es-419) |
 | **Awesome** | [Awesome_0](https://github.com/loserChen/Awesome-Recommender-System) [Awesome_1](https://github.com/USTC-StarTeam/Awesome-Large-Recommendation-Models) [Awesome_2](https://github.com/creyesp/Awesome-recsys) |
-| **Embeddings + CNN-LSTM**  | [Rafay et al., 2020 (IEEE)](https://ieeexplore.ieee.org/document/9283501). |
+| **Embeddings + CNN-LSTM**  | [Rafay et al., 2020 (IEEE)](https://ieeexplore.ieee.org/document/9080713). |
 
 ---
 
